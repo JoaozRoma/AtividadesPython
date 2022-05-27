@@ -1,0 +1,191 @@
+{% extends 'base.html' %}
+{% include 'header.html' %}
+
+{% block title %} Home {% endblock %}
+
+{% block body %}
+
+<div class="container">
+    <div class="row">
+        <div class="col md-12">
+          <div class="jumbotron p-3">
+
+              <h2>Gerenciador de Estoque<button type="button" class="btn btn-success float-right" data-toggle="modal" data-target="#mymodal">Adicionar novo produto</button> </h2>
+
+              {% with messages = get_flashed_messages() %}
+
+              {% if messages %}
+
+              {% for message in messages %}
+
+              <div class="alert alert-success alert-dismissable" role="alert">
+
+                  <button type="button" class="close" data-dismiss="alert" aria-label="close">
+
+                      <span aria-hidden="true">X</span>
+
+                  </button>
+
+                  {{message}}
+
+              </div>
+
+              {% endfor %}
+
+              {% endif %}
+
+              {% endwith %}
+
+              <table class="table table-hover table-striped table-dark">
+
+                  <tr>
+
+                      <th>Código</th>
+                      <th>Nome</th>
+                      <th>Quantidade</th>
+                      <th>Fornecedor</th>
+                      <th>Ações</th>
+
+
+                  </tr>
+
+                  {% for row in lista_produto%}
+
+                  <tr>
+
+                      <td>{{row.codigo}}</td>
+                      <td>{{row.nome}}</td>
+                      <td>{{row.quantidade}}</td>
+                      <td>{{row.fornecedor}}</td>
+                      <td>
+
+                          <a href="/update/{{row.codigo}}" class="btn btn-warning btn-xs" data-toggle="modal" data-target="#modaledit{{row.codigo}}">Editar</a>
+                          <a href="/delete/{{row.codigo}}" class="btn btn-danger btn-xs" onclick="return confirm('Tem certeza que deseja deletar esse produto?')">Deletar</a>
+
+
+                      </td>
+
+                  </tr>
+
+
+<div id="modaledit{{row.codigo}}" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+
+                <h4 class="modal-title">Editar Produto</h4>
+            </div>
+
+            <div class="modal-body">
+
+                <form action="{{url_for('update')}}" method="post">
+
+                    <div class="form-group">
+
+                        <label>Nome:</label>
+                        <input type="hidden" name="codigo" value="{{row.codigo}}">
+                        <input type="text" class="form-control" name="nome" value="{{row.nome}}">
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label>Quantidade:</label>
+                        <input type="number" class="form-control" name="quantidade" value="{{row.quantidade}}">
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label>Fornecedor:</label>
+                        <input type="text" class="form-control" name="fornecedor" value="{{row.fornecedor}}">
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <button class="btn btn-primary" type="submit" style="margin-right:300px">Atualizar</button>
+
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    </div>
+
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+                  {% endfor%}
+
+              </table>
+
+
+          </div>
+
+
+
+            <div id="mymodal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+
+                            <h4 class="modal-title">Adicionar Produto</h4>
+
+                        </div>
+
+                        <div class="modal-body">
+                            <form action="{{url_for('insert')}}" method="post">
+                                <div class="form-group">
+                                    <label>Nome:</label>
+
+                                    <input type="text" class="form-control" name="nome" required="True">
+
+                                </div>
+
+                                <div class="form-group">
+                                    <label>Quantidade:</label>
+
+                                    <input type="number" class="form-control" name="quantidade" required="True">
+
+                                </div>
+                                <div class="form-group">
+                                    <label>Fornecedor:</label>
+
+                                    <input type="text" class="form-control" name="fornecedor" required="True">
+
+                                </div>
+
+                                <div class="form-group">
+
+                                    <button class="btn btn-primary" type="submit" style="margin-right:295px">Adicionar</button>
+
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                                </div>
+
+
+
+                            </form>
+
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}
+
+
