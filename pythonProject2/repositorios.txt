@@ -1,0 +1,109 @@
+África do Sul: debian.saix.net: HTTP
+África do Sul: ftp.is.co.za: HTTP
+Alemanha: debian-cd.repulsive.eu: HTTP
+Alemanha: debian.inf.tu-dresden.de: HTTP
+Alemanha: debian.netcologne.de: HTTP
+Alemanha: debian.uni-duisburg-essen.de: HTTP
+Alemanha: ftp.fau.de: HTTP
+Alemanha: ftp.gwdg.de: HTTP
+Alemanha: ftp.halifax.rwth-aachen.de: HTTP
+Alemanha: ftp.hosteurope.de: HTTP
+Alemanha: ftp-stud.hs-esslingen.de: HTTP
+Alemanha: ftp.uni-bayreuth.de: HTTP
+Alemanha: ftp.uni-hannover.de: HTTP
+Alemanha: ftp.uni-stuttgart.de: HTTP
+Alemanha: mirror.23m.com: HTTP
+Alemanha: mirror.checkdomain.de: HTTP
+Alemanha: mirror.daniel-jost.net: HTTP
+Alemanha: mirror.de.leaseweb.net: HTTP
+Argentina: debian.xfree.com.ar: HTTP
+Armênia: mirrors.asnet.am: HTTP
+Austrália: debian.mirror.digitalpacific.com.au: HTTP
+Austrália: mirror.rackcentral.com.au: HTTP
+Áustria: debian.anexia.at: HTTP
+Bélgica: mirror.as35701.net: HTTP
+Bielorrússia: ftp.byfly.by: HTTP
+Bielorrússia: mirror.datacenter.by: HTTP
+Brasil: debian.c3sl.ufpr.br: HTTP
+Brasil: debian.pop-sc.rnp.br: HTTP
+Canadá: debian.mirror.estruxture.net: HTTP
+Canadá: debian.mirror.iweb.ca: HTTP
+China: mirror.lzu.edu.cn: HTTP
+China: mirrors.163.com: HTTP
+China: mirrors.hust.edu.cn: HTTP
+Coréia: ftp.kaist.ac.kr: HTTP
+Coréia: ftp.lanet.kr: HTTP
+Croácia: debian.carnet.hr: HTTP
+Dinamarca: mirror.asergo.com: HTTP
+Dinamarca: mirror.one.com: HTTP
+Dinamarca: mirrors.dotsrc.org: HTTP
+Dinamarca: mirrors.rackhosting.com: HTTP
+Equador: mirror.cedia.org.ec: HTTP
+Equador: mirror.uta.edu.ec: HTTP
+Espanha: debian.uvigo.es: HTTP
+Espanha: ftp.caliu.cat: HTTP
+Espanha: ftp.cica.es: HTTP
+Estados Unidos: debian.osuosl.org: HTTP
+Estados Unidos: mirror.cogentco.com: HTTP
+Estados Unidos: mirror.keystealth.org: HTTP
+Estados Unidos: mirrors.advancedhosters.com: HTTP
+Estados Unidos: mirrors.bloomu.edu: HTTP
+Estados Unidos: mirrors.gigenet.com: HTTP
+Estados Unidos: mirrors.lug.mtu.edu: HTTP
+Estados Unidos: mirrors.syringanetworks.net: HTTP
+Estados Unidos: mirror.steadfast.net: HTTP
+Estados Unidos: mirror.us.leaseweb.net: HTTP
+França: debian.obspm.fr: HTTP
+França: ftp.crifo.org: HTTP
+França: ftp.iut-bm.univ-fcomte.fr: HTTP
+Geórgia: debian.grena.ge: HTTP
+Holanda: debian.mirror.cambrium.nl: HTTP
+Holanda: debian.snt.utwente.nl: HTTP
+Holanda: mirror.duocast.net: HTTP
+Holanda: mirror.erickochen.nl: HTTP
+Holanda: mirror.nl.datapacket.com: HTTP
+Hong Kong: mirror.xtom.com.hk: HTTP
+Hungria: ftp.bme.hu: HTTP
+Indonésia: kartolo.sby.datautama.net.id: HTTP
+Indonésia: mirror.poliwangi.ac.id: HTTP
+Itália: debian.connesi.it: HTTP
+Itália: giano.com.dist.unige.it: HTTP
+Japão: ftp.jaist.ac.jp: HTTP
+Japão: ftp.nara.wide.ad.jp: HTTP
+Japão: ftp.riken.jp: HTTP
+Japão: ftp.yz.yamagata-u.ac.jp: HTTP
+Japão: hanzubon.jp: HTTP
+Letônia: debian.koyanet.lv: HTTP
+Letônia: debian.linux.edu.lv: HTTP
+Lituânia: debian.mirror.vu.lt: HTTP
+Luxemburgo: debian.mirror.root.lu: HTTP
+Noruega: ftp.uio.no: HTTP
+Nova Caledônia: debian.lagoon.nc: HTTP
+Polônia: ftp.icm.edu.pl: HTTP
+Polônia: ftp.ps.pl: HTTP
+Portugal: debian.uevora.pt: HTTP
+Portugal: ftp.rnl.tecnico.ulisboa.pt: HTTP
+Portugal: mirrors.up.pt: HTTP
+Rússia: ftp.psn.ru: HTTP
+Rússia: mirror.corbina.net: HTTP
+Rússia: mirror.mephi.ru: HTTP
+Rússia: mirror.truenetwork.ru: HTTP
+Reino Unido: debian-iso.mirror.anlx.net: HTTP
+Reino Unido: ftp.ticklers.org: HTTP
+Reino Unido: mirrorservice.org: HTTP
+Reino Unido: mirrors.m247.com: HTTP
+Reino Unido: mirror.vorboss.net: HTTP
+República Checa: debian-cd.mirror.web4u.cz: HTTP
+República Checa: debian.superhosting.cz: HTTP
+República Checa: mirror.dkm.cz: HTTP
+República Checa: mirror-prg.webglobe.com: HTTP
+Romênia: mirrors.pidginhost.com: HTTP
+Romênia: mirrors.xservers.ro: HTTP
+Singapura: mirror.0x.sg: HTTP
+Suíça: debian.ethz.ch: HTTP
+Suécia: cdimage.debian.org: HTTP
+Suécia: ftp.acc.umu.se: HTTP
+Taiwan: ftp.ncnu.edu.tw: HTTP
+Taiwan: ftp.ntou.edu.tw: HTTP
+Turquia: ftp.linux.org.tr: HTTP
+Ucrânia: debian.volia.net: HTTP

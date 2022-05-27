@@ -1,0 +1,8 @@
+debian-live-11.1.0-amd64-cinnamon.iso - 2.6G
+debian-live-11.1.0-amd64-gnome.iso - 2.5G
+debian-live-11.1.0-amd64-kde.iso - 2.5G
+debian-live-11.1.0-amd64-lxde.iso - 2.4G
+debian-live-11.1.0-amd64-lxqt.iso - 2.4G
+debian-live-11.1.0-amd64-mate.iso - 2.4G
+debian-live-11.1.0-amd64-standard.iso - 930M
+debian-live-11.1.0-amd64-xfce.iso - 2.3G
